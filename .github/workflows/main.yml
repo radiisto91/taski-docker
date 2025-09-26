@@ -56,8 +56,6 @@ jobs:
         DB_HOST: 127.0.0.1
         DB_PORT: 5432
 
-    # Запускаем flake8
-    - name: Test with flake8 and django tests
       # Вызываем flake8 и указываем ему,
       # что нужно проверить файлы только в папке backend/
       run: |
